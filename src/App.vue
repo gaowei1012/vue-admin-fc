@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <router-view/>
+    this is admin fc
   </div>
 </template>
 
