@@ -1,12 +1,16 @@
 <template>
-  <div id="app">
-    this is admin fc
+  <div>
+    <home-crtl></home-crtl>
   </div>
 </template>
 
 <script>
+import HomeCrtl from './pages/home/Home'
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    HomeCrtl
+  }
 }
 </script>
 
